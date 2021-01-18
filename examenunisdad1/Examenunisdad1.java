@@ -13,11 +13,12 @@ public class Examenunisdad1 {
         String respuesta;
         int tam;
         boolean agregar = false;
-        do {
-            agregar = false;
+        agregar = false;
             System.out.println("Longitud del arreglo:");
             tam = leer.nextInt();
             String arreglo[] = new String[tam];
+        do {
+ 
             for (int i = 0; i < arreglo.length; i++) {
                 System.out.println("" + i + "Ingresa el dato: ");
                 arreglo[i] = leer.next();
